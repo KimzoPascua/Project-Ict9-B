@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Bungee&family=Bungee+Shade&family=Londrina+Shadow&family=Monoton&family=Pangolin&family=Rubik+Puddles&display=swap" rel="stylesheet">
+	<title>Project B</title>
+	<style type="text/css">
+
+	  body {
+  		font-family: Montserrat;
+  		text-align: center;
+  		background-color: #EDE9D5;
+}
+  h1 {
+  		text-align: center;
+  		font-family: Bungee Shade;
+  		color: #F0C42B;
+
+}
+
+  h2{
+  	font-family: Bungee Shade;
+  	color: #F0C42B;
+  }
+
+
+  h3{
+  		font-family: Londrina Shadow;
+  		color: #FFC601;
+}
+ 
+
+  h5{
+  		font-family: Londrina Shadow;
+  		color: #FFC601;
+  }
+
+  button {
+  		padding: 10px 10px;
+ 	    background-color: #F0C42B;
+  		color: white;
+}
+ 
+ p {
+ 	color: #FFB84C;
+ 	font-family: Monoton;
+ }
+   body{
+	      background: url( https://i.pinimg.com/564x/dd/26/53/dd2653d615b8ca56dcb2d4ddd53b76e1.jpg );
+        }
+   img{
+   	border-style: solid;
+
+   }
+
+	</style>
+</head>
+<body class="bg-light"><br>
+
+  <div class="container bg-danger text-light form-control rounded"><br>
+
+    <h1>Conversion Calculator</h1>
+    <h2>Let's go to a Mcdonalds drive thru!</h2>
+    <h5>place your number<input placeholder="Type here" type="number" id="input" min="0" step="any">
+
+    <button class="rounded" onclick="convertLength()">Convert</button></h5>
+
+
+
+    <h3>Menu:</h3>
+    <table class="table">
+        <tr>
+        <th>
+            <p id="centimeters"><i> Converted To Centimeters: 0</i></p>
+        </th>
+        <th>
+            <p id="meters"><i> Converted To Meters: 0</i></p>
+        </th>
+        <th>
+            <p id="kilometers"> <i> Converted To Kilometers: 0</i> </p>
+        </th>
+        </tr>
+    <img src="https://i.pinimg.com/564x/c7/6b/02/c76b02f80589719ad8ca98038d80b489.jpg" height="650" width="500">
+
+     <h2>Calucluate the distance of your car to the Mcdonalds Drive thru!❤️ 💛</h2>
+
+      <select name="Nationality">
+      	<option value= 'disabled'><h5>Place your order here!..........❤️ 💛</h5></option>
+    	<option>Filet-O-Fish</option>
+    	<option>1pc chicken</option>
+    	<option>Coke</option>
+    	<option>Chicken alaking</option>
+    	<option>McChikcen</option>
+    	<option>Big mac</option>
+    	<option>Sundae</option>
+    	<option>Cheesy Eggdesal</option>
+    	<option>Sausage Mc muffin with egg</option>
+    	<option>BFF Fries</option>
+    	<option>Mc nuggets</option>
+    	<option>Hashbrown</option>
+    	<option>Extra rice</option>
+    	<option>Mc flurry</option>
+    	<option>Orange juice</option>
+    	<option>McCafé Americano</option>
+
+        </select>
+
+    </table>
+  </div>
+  
+
+
+  <script>
+    function convertLength() {
+      var input = document.getElementById("input").value;
+
+      var centimeters = input / 10;
+
+      var meters = input / 1000;
+
+      var kilometers = input / 1000000;
+  
+      document.getElementById("centimeters").textContent = "Centimeters: " + centimeters;
+      document.getElementById("meters").textContent = "Meters: " + meters;
+      document.getElementById("kilometers").textContent = "Kilometers: " + kilometers;
+    }
+
+
+  </script>
+
+<a href="https://www.mcdonalds.com.ph/our-food">Click here for more options!</a>
+ 
+ <h1 style="color:#F0C42B ; background-color: #E52B42;">Love ko 'to</h1>
+
+</body>
+    <footer>
+		<small>&copy;PK2022</small>
+	</footer>
+</html>
